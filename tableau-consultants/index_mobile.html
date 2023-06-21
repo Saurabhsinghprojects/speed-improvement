@@ -302,12 +302,12 @@
 	<!--/*============*/-->
     
 
-	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js" async defer></script>
 
 
 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-	<script type="text/javascript">
+	<script type="text/javascript" async defer>
 		function validateEmail(email) {
 			var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 			return re.test(email);
@@ -368,7 +368,7 @@
 
 
 
-	<script>!function () { for (
+	<script >!function () { for (
 		var t = document.getElementsByClassName("onq-youtube-player"), e = 0; 
 		e < t.length; e++)t[e].onclick = function () { 
 			var t = document.createElement("iframe");
@@ -456,7 +456,7 @@
 
 	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-995537422"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-22731857-1"></script>
-	<script>
+	<script async defer>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
@@ -482,7 +482,7 @@
 		fbq('init', '261215964674636');
 		fbq('track', 'PageView');
 	</script>
-	<noscript>
+	<noscript async defer>
 		<img height="1" width="1" src="https://www.facebook.com/tr?id=261215964674636&ev=PageView
 		&noscript=1" />
 	</noscript>
