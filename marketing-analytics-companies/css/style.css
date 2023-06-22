@@ -296,7 +296,7 @@ header:before,
     margin: 60px 80px 60px 0;
 }
 .perceptive_banner {
-    background: url(../images/banner.jpg) top center no-repeat;
+    background: url(../images/banner.webp) top center no-repeat;
     background-size: cover;
     min-height: 614px;
     position: relative; 
@@ -606,7 +606,7 @@ header:before,
 }
 
 .thankyou_banner {
-    background: url(../images/thankyou_img.jpg) top left no-repeat;
+    background: url(../images/thankyou_img.webp) top left no-repeat;
     background-size: cover;
     width: 100%;
     padding: 0;
@@ -1405,7 +1405,7 @@ footer p a:hover {
     right: -10px;
     width: 30px;
     height: 30px;
-    background: url("../images/lightbox-close@3x.png") 0 0 no-repeat;
+    background: url("../images/lightbox-close@3x.webp") 0 0 no-repeat;
     background-size: cover;
     opacity: 1;
     overflow: hidden;
@@ -1592,7 +1592,7 @@ footer p a:hover {
     right:2px;
     width:28px;
     height:28px;
-    background: url(../images/lightbox-close@3x.png) 0 0 no-repeat;
+    background: url(../images/lightbox-close@3x.webp) 0 0 no-repeat;
     background-size: cover;
     opacity: 1;
     overflow: hidden;
